@@ -12,3 +12,7 @@ window.addEventListener('scroll',() => {
         arrowdown2.style.display = "block";
     }
 })
+
+
+// JS FOR SOCIL ICONS
+

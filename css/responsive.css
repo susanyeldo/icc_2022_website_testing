@@ -62,9 +62,11 @@
 
 	.subscribe-pan form input[type="email"]{ width:75%}
 
+	#socialcontainer {position: relative;}
+
 	footer[role="footer"]{ position: fixed; bottom:0; width:100%; left:0; right:0}
 
-	footer[role="footer"] ul{ text-align:center !important; line-height:35px; float:none !important;margin-right:5vw;}
+	footer[role="footer"] ul{ text-align:center !important; line-height:35px; float:none !important;margin-left:12vw;}
 
 	footer[role="footer"] ul + ul{ float:none !important; text-align:center;}
 
@@ -72,7 +74,6 @@
 
 	footer[role="footer"] p + p{ float:none; text-align:center}
 
-	
 
 }
 
