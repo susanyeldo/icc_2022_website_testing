@@ -18,6 +18,7 @@ function contact()
     arrowanim.style.zIndex = "-2";
     arrowanim2.style.zIndex = "-2";
     regform.style.zIndex = "-5";
+    regform.style.display = "none";
     inputfields.style.zIndex = "-5";
     teamname.style.zIndex = "-5";
     contactfade.style.zIndex = "10";
@@ -31,6 +32,15 @@ function revert()
     arrowanim.style.zIndex = "0";
     arrowanim2.style.zIndex = "0";
     regform.style.zIndex = "0";
+    regform.style.display = "block";
     teamname.style.zIndex = "0";
     contactfade.style.zIndex = "0";
+}
+function lowerz()
+{
+    regform.style.zIndex = "-5";
+}
+function higherz()
+{
+    regform.style.zIndex = "0";
 }
