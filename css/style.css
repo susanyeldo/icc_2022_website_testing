@@ -782,7 +782,8 @@ footer[role="footer"] p a {
 	height: 100%;
 	width: 100%;
 	overflow: auto;
-	background-color: rgba(255, 255, 255, 0.35);
+	background-image: url("/images/bg-2.jpg");
+	background-size: cover;
 }
 #wrapper {
 	padding: 0;
