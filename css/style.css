@@ -1249,7 +1249,7 @@ footer[role="footer"] p a {
 }
 .Timeline-body {
 	background-color: #111;
-	background-image:none !important;
+	background-image: url("../images/finalfade2.png");
 	background-position: center;
 	/* Center the image */
 	background-repeat: no-repeat;
