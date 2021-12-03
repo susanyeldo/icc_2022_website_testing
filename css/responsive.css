@@ -15,6 +15,12 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	.container{ padding-left:50px}
+
+	#formheading {font-size: 22px;}
+
+	#reglabelhead {font-size: 23px;}
+
+	.form-control1 {height: 40px;}
 	
 }
 
@@ -25,6 +31,12 @@
 	.container{ padding-left:60px}
 
 	footer[role="footer"]{ position:absolute; bottom:0; width:100%; left:0; right:0}
+
+	#formheading {font-size: 22px;}
+
+	#reglabelhead {font-size: 23px;}
+
+	.form-control1 {height: 40px;}
 
 }
 
@@ -73,6 +85,12 @@
 	footer[role="footer"] p{ text-align:center; line-height:35px; float:none}
 
 	footer[role="footer"] p + p{ float:none; text-align:center}
+
+	#formheading {font-size: 22px;}
+
+	#reglabelhead {font-size: 23px;}
+
+	.form-control1 {height: 40px;}
 
 
 }
