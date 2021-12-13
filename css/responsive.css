@@ -74,7 +74,7 @@
 
 	.subscribe-pan form input[type="email"]{ width:75%}
 
-	#socialcontainer {position: relative;}
+	#socialcontainer {position: relative; right:8.5vw;}
 
 	footer[role="footer"]{ position: fixed; bottom:0; width:100%; left:0; right:0}
 
