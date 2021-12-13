@@ -62,6 +62,49 @@ function checkForm()
 
                       }
 
+
+                      else if(document.getElementById("firstname2").value.length == 0)
+                      {
+                          document.getElementById("firstname2").focus();
+                          var mysubmit = document.getElementById('submit');
+                          var displaySetting = submit.style.display;
+                          mysubmit.style.display = 'block';
+                          document.getElementById("submit").innerText = "Fill all compulsory fields and try again";
+
+                      }
+
+                      else if(document.getElementById("email2").value.length == 0)
+                      {
+                          document.getElementById("email2").focus();
+                          var mysubmit = document.getElementById('submit');
+                          var displaySetting = submit.style.display;
+                          mysubmit.style.display = 'block';
+                          document.getElementById("submit").innerText = "Fill all compulsory fields and try again";
+
+                      }
+
+                      else if(document.getElementById("phone2").value.length == 0)
+                      {
+                          document.getElementById("phone2").focus();
+                          var mysubmit = document.getElementById('submit');
+                          var displaySetting = submit.style.display;
+                          mysubmit.style.display = 'block';
+                          document.getElementById("submit").innerText = "Fill all compulsory fields and try again";
+
+                      }
+
+                      else if(document.getElementById("college2").value.length == 0)
+                      {
+                          document.getElementById("college2").focus();
+                          var mysubmit = document.getElementById('submit');
+                          var displaySetting = submit.style.display;
+                          mysubmit.style.display = 'block';
+                          document.getElementById("submit").innerText = "Fill all compulsory fields and try again";
+
+                      }
+
+
+
                       else if(document.getElementById("ques1").value.length == 0)
                       {
                           document.getElementById("ques1").focus();
