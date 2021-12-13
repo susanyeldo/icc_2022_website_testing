@@ -1212,7 +1212,7 @@ footer[role="footer"] p a {
 #socialcontainer
 {
 	position: absolute;
-	right:8.5vw;
+	right:1vw;
 }
 #footcontainer
 {
@@ -1259,6 +1259,8 @@ footer[role="footer"] p a {
 	color: black;
 	padding-left: 10px;
 	height:100% !important;
+	background-attachment: fixed;
+	
 }
 .Timeline-footer {
 	background-color: #2e3033;
@@ -1424,4 +1426,17 @@ h1{
 .gallerymodal
 {
 	padding:0 !important;
+}
+
+
+
+.carousel-caption{
+	color: #1eb8d8 !important;
+	font-size: 130%;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#rules {
+	padding-left: 20px;
 }
