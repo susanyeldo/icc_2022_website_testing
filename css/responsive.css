@@ -1481,7 +1481,13 @@
 	#countdown{
 		padding-bottom:150px !important;
 	}
-	
+	#reghover
+	{
+		padding-top:50px !important;
+		position: absolute;
+		bottom:140px !important;
+		left:-75px !important;
+	}	
 }
 @media(max-width:301px)
 {
@@ -1520,7 +1526,7 @@
 	#reghover {
 		padding-top:50px !important;
 		position: absolute;
-		bottom:100px !important;
+		bottom:140px !important;
 		left:-80px !important;
 	}
 	article.home-content p {
@@ -1530,6 +1536,7 @@
 		margin-left:5% !important;
 	}
 	#countdown{
+		padding-top:20px;
 		padding-bottom:150px !important;
 	}
 	#countdown {
