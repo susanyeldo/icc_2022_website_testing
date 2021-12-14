@@ -224,10 +224,6 @@
 	main {
 		font-size: 1vw !important;
 	}
-	#reghover
-	{
-		margin-bottom:10px !important;
-	}
 }
 
 @media(max-width:514px) and (min-width:495px) {
@@ -273,7 +269,8 @@
 
 @media(max-width:450px) {
 	main{
-		overflow:hidden !important;
+		/* overflow:hidden !important; */
+		overflow:scroll;
 	}
 	article.home-content {
 		margin-left: 20px !important;
@@ -384,7 +381,7 @@
 
 	#reghover {
 		position: absolute;
-		bottom: -75px;
+		bottom: 100px;
 		left: 40%;
 	}
 }
@@ -495,7 +492,7 @@
 	}
 	#reghover
 	{
-		bottom:2% !important;
+		bottom:10px !important;
 	}
 }
 
@@ -540,7 +537,7 @@
 
 	#headertext {
 		font-size: 30px;
-		margin-left: 6vw !important;
+		margin-left: -3vw !important;
 	}
 }
 
@@ -662,6 +659,7 @@
 		margin-top: 5px;
 		padding-top: 6px
 	}
+	
 }
 
 @media(max-width:310px) {
@@ -844,18 +842,35 @@
 @media(max-width:510px) {
 	#reghover {
 		position: absolute;
-		bottom: -75px;
+		bottom: 100px;
 		left:35.3vw !important;
-		overflow:hidden !important ;
 	}
 }
+@media(max-width:481px) and (min-width:420px)
+{
+	#reghover {
+		padding-top:50px !important;
+		position: absolute;
+		bottom:100px !important;
+		left:35.3vw !important;
+	}
+	article.home-content p {
+		width: 300px;
+		text-align: center;
+		font-size:16px !important;
+		margin-left:13% !important;
+	}
+	#countdown{
+		padding-bottom:150px !important;
+	}
 
+}
 
 @media(max-width:320px)
 {
 	#reghover
 	{
-		margin-left:-5% !important;
+		margin-left:150px !important;
 	}
 }
 
@@ -1028,6 +1043,21 @@
 	{
 		margin-left:-5% !important;
 	}
+	#reghover {
+		padding-top:50px !important;
+		position: absolute;
+		bottom:100px !important;
+		left:35.3vw !important;
+	}
+	article.home-content p {
+		width: 300px;
+		text-align: center;
+		font-size:16px !important;
+		margin-left:6% !important;
+	}
+	#countdown{
+		padding-bottom:150px !important;
+	}
 }
 @media(max-width:400px)
 {
@@ -1102,7 +1132,21 @@
 	div#modalrow.row{
 		margin-left:-5% !important;	
 		}
-	
+		#reghover {
+			padding-top:50px !important;
+			position: absolute;
+			bottom:100px !important;
+			left:35.3vw !important;
+		}
+		article.home-content p {
+			width: 250px;
+			text-align: center;
+			font-size:14px !important;
+			margin-left:7% !important;
+		}
+		#countdown{
+			padding-bottom:150px !important;
+		}
 }
 @media(max-width:330px)
 {
@@ -1359,5 +1403,127 @@
 	}
 	h2#bclub{
 		font-size:25px;
+	}
+}
+
+@media (max-width:321px)
+{
+	#reghover {
+		padding-top:50px !important;
+		position: absolute;
+		bottom:100px !important;
+		left:-50px !important;
+	}
+	article.home-content p {
+		width: 250px;
+		text-align: center;
+		font-size:14px !important;
+		margin-left:2% !important;
+	}
+	#countdown{
+		padding-bottom:150px !important;
+	}
+}
+
+@media (max-width:297px)
+{
+	#reghover {
+		padding-top:50px !important;
+		position: absolute;
+		bottom:100px !important;
+		left:-75px !important;
+	}
+	article.home-content p {
+		width: 220px;
+		text-align: center;
+		font-size:12px !important;
+		margin-left:2% !important;
+	}
+	#countdown{
+		padding-bottom:150px !important;
+	}
+}
+@media (max-width:269px)
+{
+	#reghover {
+		padding-top:50px !important;
+		position: absolute;
+		bottom:100px !important;
+		left:-85px !important;
+	}
+	article.home-content p {
+		width: 180px;
+		text-align: center;
+		font-size:12px !important;
+		margin-left:2% !important;
+	}
+	#countdown{
+		padding-bottom:150px !important;
+	}
+	#countdown {
+		margin-left: -18% !important;
+	}
+
+	#countdown span {
+		display: inline-block;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFF;
+		font-weight: 700;
+		font-size: 23px !important;
+		line-height: 34px;
+		margin-right: 10px
+	}
+
+	#countdown span b {
+		display: block;
+		font-size: 6px;
+		line-height: 12px;
+		letter-spacing: 2px;
+		border-top: 3px solid #1eb8d8;
+		margin-top: 5px;
+		padding-top: 6px
+	}
+}
+@media (max-width:239px)
+{
+	#reghover {
+		padding-top:50px !important;
+		position: absolute;
+		bottom:100px !important;
+		left:-95px !important;
+	}
+	article.home-content p {
+		width: 180px;
+		text-align: center;
+		font-size:12px !important;
+		margin-left:2% !important;
+	}
+	#countdown{
+		padding-bottom:150px !important;
+	}
+	#countdown {
+		margin-left: -21% !important;
+	}
+
+	#countdown span {
+		display: inline-block;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFF;
+		font-weight: 700;
+		font-size: 17px !important;
+		line-height: 34px;
+		margin-right: 10px
+	}
+
+	#countdown span b {
+		display: block;
+		font-size: 6px;
+		line-height: 12px;
+		letter-spacing: 2px;
+		border-top: 3px solid #1eb8d8;
+		margin-top: 5px;
+		padding-top: 6px
 	}
 }
