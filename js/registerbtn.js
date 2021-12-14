@@ -16,10 +16,12 @@ let check3 = amenu1.getAttribute("aria-expanded");
 function hiden()
 {
     regbtn.style.display="none";
+    regbtn.style.visibility="hidden";
 }
 function unhide()
 {
     regbtn.style.display="block";
+    regbtn.style.visibility="visible";
 }
 
 function change()
