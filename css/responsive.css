@@ -1126,6 +1126,18 @@
 			padding-bottom:150px !important;
 		}
 }
+@media(max-width:341px)
+{
+	div#modalrow.row{
+		margin-left:-5% !important;	
+		}
+		#reghover {
+			padding-top:20px !important;
+			position: absolute;
+			bottom:100px !important;
+			left:29.3vw !important;
+		}
+}
 @media(max-width:340px)
 {
 	#aboutarticle
@@ -1451,7 +1463,7 @@
 		padding-top:50px !important;
 		position: absolute;
 		bottom:100px !important;
-		left:-50px !important;
+		left:-60px !important;
 	}
 	article.home-content p {
 		width: 250px;
