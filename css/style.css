@@ -642,7 +642,7 @@ article.home-content p {
 
 footer[role="footer"] {
 	background-color: #111111;
-	overflow: hidden;
+	/* overflow: hidden; */
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -810,11 +810,12 @@ footer[role="footer"] p a {
 }
 #wrapper {
 	padding: 0;
+	width:250px;
 }
 
 #wrapper a {
 	display: block;
-	width: 100%;
+	width: 250px;
 	height: 50px;
 	padding: 0 !important;
 	line-height: 46px;
@@ -836,7 +837,7 @@ footer[role="footer"] p a {
 #wrapper a:after {
 	position: absolute;
 	content: "";
-	width: 100%;
+	width: 250px;
 	height: 100%;
 	top: -100%;
 	left: 0;
@@ -891,7 +892,6 @@ footer[role="footer"] p a {
 }
 
 .modal-dialog {
-
 	top: 25px;
 	width: 750px !important;
 }
@@ -964,11 +964,9 @@ footer[role="footer"] p a {
 	/* border: #03d8d8; */
 }
 
-#reghover
+#bclub
 {
-	position: absolute;
-	right:3vw;
-	top:1.1vw;
+	padding-left: 110px !important;
 }
 
 #reghover a {
@@ -1061,7 +1059,7 @@ footer[role="footer"] p a {
 	border-radius: 0.5vw;
 	background-color: #2e3033;
 	color: white;
-	font-size: 150%;
+	font-size: 20px;
 	width: 100%;
 	height: 3.5vw;
 	padding-left: 1vw;
@@ -1230,14 +1228,14 @@ footer[role="footer"] p a {
 }
 #socialcontainer
 {
-	position: absolute;
-	right:-14.3vw;
+	display:inline;
 }
 #footcontainer
 {
 	position: relative;
 	z-index:0;
-	
+	margin-right:77px;
+	margin-left: 55px;
 }
 
 #footcontainer a{
@@ -1479,3 +1477,24 @@ h1{
 	height: 3.5vw;
 	padding-left: 1vw;
 }
+
+footer > .container
+{
+	margin:0 !important;
+}
+footer{
+	margin:0 !important;
+}
+#topnav{
+	margin-right:43px;
+}
+
+h2#bclub{
+	padding-left:0 !important;
+}
+
+#paddingnew{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
