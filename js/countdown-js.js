@@ -1,6 +1,6 @@
 // set the date we're counting down to
 
-var target_date = new Date('Dec, 20, 2021').getTime();
+var target_date = new Date('Dec, 21, 2021').getTime();
 
  
 
@@ -28,7 +28,10 @@ setInterval(function () {
 
     var seconds_left = (target_date - current_date) / 1000;
 
- 
+    
+    //Time till 7pm
+    seconds_left = seconds_left + 68400;
+
 
     // do some time calculations
 
