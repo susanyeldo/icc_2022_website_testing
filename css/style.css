@@ -1497,4 +1497,7 @@ h2#bclub{
     margin-top: 30px;
     margin-bottom: 60px;
 }
-
+#paddingnew
+{
+	visibility: hidden;
+}
