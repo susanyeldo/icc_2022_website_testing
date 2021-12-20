@@ -1642,6 +1642,13 @@
 		padding-top: 6px
 	}
 }
+@media(max-width:540px)
+{
+	#reghover
+	{
+		margin-left:-3%;
+	}
+}
 @media(max-width:450px)
 {
 	#countdown {
@@ -1660,7 +1667,11 @@
 {
 	#modalrow
 	{
-		margin-left:0%;
+		margin-left:-5%;
+	}
+	#reghover
+	{
+		margin-left:-5%;
 	}
 }
 @media(max-width:360px)
@@ -1685,6 +1696,9 @@
 }
 @media(max-width:320px)
 {
+	div#modalrow.row {
+		margin-left: -4% !important;
+	}
 	#reghover
 	{
 		margin-left:48% !important;
