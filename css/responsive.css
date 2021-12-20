@@ -1660,44 +1660,44 @@
 {
 	#modalrow
 	{
-		margin-left:-6%;
+		margin-left:-8%;
 	}
 }
 @media(max-width:400px)
 {
 	#modalrow
 	{
-		margin-left:-5%;
+		margin-left:-12%;
 	}
 	#reghover
 	{
-		margin-left:-5%;
+		margin-left:-1%;
 	}
 }
 @media(max-width:360px)
 {
 	div#modalrow.row {
-		margin-left: -5% !important;
+		margin-left: -15% !important;
 	}
 	#reghover
 	{
-		margin-left: -5% !important;
+		margin-left: -7% !important;
 	}
 }
 @media(max-width:340px)
 {
 	div#modalrow.row {
-		margin-left: -7% !important;
+		margin-left: -15% !important;
 	}
 	#reghover
 	{
-		margin-left:-3% !important;
+		margin-left:-1% !important;
 	}
 }
 @media(max-width:320px)
 {
 	div#modalrow.row {
-		margin-left: -4% !important;
+		margin-left: -15% !important;
 	}
 	#reghover
 	{
@@ -1715,7 +1715,7 @@
 @media(max-width:283px)
 {
 	div#modalrow.row{
-		margin-left:-3% !important;	
+		margin-left:-13% !important;	
 	}
 }
 
