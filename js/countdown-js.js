@@ -55,9 +55,9 @@ setInterval(function () {
 
     // format countdown string + set tag value
 
-    countdown.innerHTML = '<span class="days">' + days +  ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b></span> <span class="minutes">'
+    countdown.innerHTML = '<span class="days">' + 0 +  ' <b>Days</b></span> <span class="hours">' + 0 + ' <b>Hours</b></span> <span class="minutes">'
 
-    + minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds</b></span>';  
+    + 0 + ' <b>Minutes</b></span> <span class="seconds">' + 0 + ' <b>Seconds</b></span>';  
 
  
 
