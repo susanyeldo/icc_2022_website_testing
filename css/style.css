@@ -1501,3 +1501,17 @@ h2#bclub{
 {
 	visibility: hidden;
 }
+#registertext{
+	font-size: 21px !important;
+}
+#regpagehead{
+	padding-bottom:30px  !important;
+}
+
+#registertext a{
+	color:#1eb8d8 !important;
+	text-decoration: none !important;
+}
+#registertext a:hover{
+	color:#087b92 !important;
+}
